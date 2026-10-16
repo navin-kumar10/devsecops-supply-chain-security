@@ -1,0 +1,8 @@
+name: security-reusable
+on:
+  workflow_call: {}
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
